@@ -10,6 +10,8 @@ import { ItemGalleryComponent } from './components/item-gallery/item-gallery.com
 import { ItemDetailsComponent } from './components/item-details/item-details.component';
 import { AboutComponent } from './components/about/about.component';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { PageNotFoundComponent } from './components/page-not-found/page-not-foun
     ItemGalleryComponent,
     ItemDetailsComponent,
     AboutComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    NavbarComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

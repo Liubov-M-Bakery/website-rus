@@ -1,30 +1,5 @@
-<!-- Toolbar -->
-<mat-toolbar color="primary" class="header">
-  <div>Liubov M Bakery</div>
-  <span class="nav-tool-items">
-    <mat-icon (click)="sidenav.toggle()" class="hamburger">menu</mat-icon>
-  </span>
-</mat-toolbar>
+<app-navbar></app-navbar>
 
-<mat-sidenav-container>
-  <!-- Sidenav -->
-  <mat-sidenav #sidenav [mode]="isBiggerScreen() ? 'over' : 'side'" [(opened)]="opened" [fixedInViewport]="true"
-    [fixedTopGap]>
-    <mat-nav-list>
-      <a mat-list-item routerLinkActive="active" routerLink="/home">
-        <mat-icon>add</mat-icon> Home
-      </a>
-      <a mat-list-item routerLinkActive="active" routerLink="/item-gallery">
-        <mat-icon>format_list_bulleted</mat-icon> View All Items
-      </a> 
-      <a mat-list-item routerLinkActive="active" routerLink="/about">
-        <mat-icon>account_circle</mat-icon> About Me
-      </a>
-    </mat-nav-list>
-  </mat-sidenav>
+<router-outlet></router-outlet>
 
-  <!-- Main content -->
-  <mat-sidenav-content>
-    <router-outlet></router-outlet>
-  </mat-sidenav-content>
-</mat-sidenav-container>
+<app-footer></app-footer>

@@ -38,3 +38,11 @@ body .push-right{margin-right:10px;}
 @media (max-width:767px){.nav-tool-items{margin-right:0;}
  .hamburger{visibility:visible !important;}
 }
+/* Background image*/
+body {
+    background: url("../src/assets/back.jpg");
+    background-color: #cccccc; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
