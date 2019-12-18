@@ -7,10 +7,11 @@
 ---
 
 ### This version of the website allows to:
-- deploy
-- translate
+- view all the items
+- view information about the bakery
+- contact the person in charge
 
-### Next level: admin module
+### Next level: admin module, backend
 - login btn -> login screen
 - add pastry
 - edit pastry
@@ -20,3 +21,8 @@
 ---
 
 ### Technologies used:
+- Angular 8
+- Git VCS
+- GitHub Pages for deployment
+- Visual Studio Code IDE
+- Chrome Developer Tools
