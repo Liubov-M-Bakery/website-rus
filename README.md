@@ -8,9 +8,9 @@
 
 ### Web 101
 - deploy
-- home - carousel
-- gallery
+- gallery *
 - details (when smth on gallery is clicked: description, time to cook, allergies)
+- translate
 
 ### Next level: admin module
 - login btn -> login screen
