@@ -6,10 +6,8 @@
 
 ---
 
-### Web 101
+### This version of the website allows to:
 - deploy
-- gallery *
-- details (when smth on gallery is clicked: description, time to cook, allergies)
 - translate
 
 ### Next level: admin module
@@ -17,4 +15,8 @@
 - add pastry
 - edit pastry
 - delete pastry  
-    
+- details (when smth on gallery is clicked: description, time to cook, allergies) - item-details component
+
+---
+
+### Technologies used:

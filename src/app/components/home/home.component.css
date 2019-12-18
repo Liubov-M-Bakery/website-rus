@@ -15,3 +15,8 @@ p {
 a {
     text-decoration: none;
 }
+
+.container,
+.py-5 {
+    background-color: white;
+}
