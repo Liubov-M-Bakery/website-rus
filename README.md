@@ -27,3 +27,11 @@
 - GitHub Pages for deployment
 - Visual Studio Code IDE
 - Chrome Developer Tools
+
+### Gits
+heroku  https://git.heroku.com/liubov-m-bakery.git (fetch)
+heroku  https://git.heroku.com/liubov-m-bakery.git (push)
+nadia   git@github.com:NadiaMok/liubov-m.git (fetch)
+nadia   git@github.com:NadiaMok/liubov-m.git (push)
+origin  git@github.com:Liubov-M-Bakery/website.git (fetch)
+origin  git@github.com:Liubov-M-Bakery/website.git (push)
