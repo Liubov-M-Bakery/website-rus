@@ -16,7 +16,8 @@
 - add pastry
 - edit pastry
 - delete pastry  
-- details (when smth on gallery is clicked: description, time to cook, allergies) - item-details component
+- details (add description, time to cook, allergies) - item-details component
+- country detection for language
 
 ---
 
