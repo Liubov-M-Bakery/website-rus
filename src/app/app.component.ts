@@ -1,7 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { MatSidenav } from '@angular/material/sidenav';
-import { NavbarComponent } from './components/navbar/navbar.component';
-import { FooterComponent } from './components/footer/footer.component';
+import { NavbarRusComponent } from './components/navbar-rus/navbar-rus.component';
 
 @Component({
   selector: 'app-root',

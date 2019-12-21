@@ -2,3 +2,18 @@
     background-color: white;
     margin: 0 auto;
 }
+
+a {
+    text-decoration: none;
+    color: #5a5956;
+}
+
+footer {
+    position: fixed;
+    height: 40px;
+    bottom: 0;
+    color: #5a5956;
+    background-color: white;
+    width: 100%;
+    font-size: smaller;
+}

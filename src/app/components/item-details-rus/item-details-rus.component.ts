@@ -2,11 +2,11 @@ import { Component, OnInit, NgZone } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({
-  selector: 'app-item-details',
-  templateUrl: './item-details.component.html',
-  styleUrls: ['./item-details.component.scss']
+  selector: 'app-item-details-rus',
+  templateUrl: './item-details-rus.component.html',
+  styleUrls: ['./item-details-rus.component.scss']
 })
-export class ItemDetailsComponent implements OnInit {
+export class ItemDetailsRusComponent implements OnInit {
 
   itemName: string;
 
@@ -19,8 +19,6 @@ export class ItemDetailsComponent implements OnInit {
     const id = this.actRoute.snapshot.paramMap.get('id');
 
     this.itemName = id + '.jpg';
-
-
   }
 
 }
